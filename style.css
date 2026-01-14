@@ -1,0 +1,36 @@
+/* * Stylesheet for Xiamen Chic Homeware Product Layout
+ * Optimized for mobile responsiveness
+ */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-details h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.price-tag {
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+/* Juice groove highlight color */
+.juice-groove {
+    border-bottom: 2px solid #8b4513; 
+}
